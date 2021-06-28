@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Post Name</title>
+
+
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1" />
+
+	<link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+
+	<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" type="text/css" href="default.css">
+
+
+	<style type="text/css">
+		.img-container{
+			max-width: 600px;
+            float: right;
+            padding-top: 100px;
+		}
+
+		img{
+			width: 100%
+		}
+
+	</style>
+
+</head>
+<body>
+	<div class="nav-wrapper">
+
+		<!-- Link around dots-wrapper added after tutorial video -->
+		<a href="index.html">
+			<div class="dots-wrapper">
+				<div id="dot-1" class="browser-dot"></div>
+				<div id="dot-2" class="browser-dot"></div>
+				<div id="dot-3" class="browser-dot"></div>
+			</div>
+		</a>
+
+		<ul id="navigation">
+			<li><a href="index.html#contact">Contact</a></li>
+
+		</ul>
+	</div>
+
+	<div class="main-container">
+		<br>
+
+		<div class="img-container">
+			<img src="images/Django.png">
+		</div>
+		
+		<h3>Django Project</h3>
+		<p>The django project which i did recently was making an API for an advisor network where users can come and book an advisor for a call...</p>
+          <p>And i started building my first project on Django</p>
+          
+          <h5>Technologies:</h5>
+		<ul>
+			<li>- Python</li>
+			<li>- Django + Django REST Framework</li>
+		</ul>
+          
+           <p>The APIs created for the project: <br>
+               &emsp;i.Admin <br> &emsp;&emsp;1.API: Add an advisor <br> &emsp;&emsp;&emsp;a.Method: <br> &emsp;&emsp;&emsp;&emsp;i.POST <br> &emsp;&emsp;&emsp;b.Authentication <br> &emsp;&emsp;&emsp;&emsp;i.Not needed for this assignment <br> &emsp;&emsp;&emsp;c.Endpoint: <br> &emsp;&emsp;&emsp;&emsp;i./admin/advisor/ <br> &emsp;&emsp;&emsp;d.Request: <br> &emsp;&emsp;&emsp;&emsp;i.Advisor name <br> &emsp;&emsp;&emsp;&emsp;ii.Advisor Photo URL <br> &emsp;&emsp;&emsp;e.Response: <br> &emsp;&emsp;&emsp;&emsp;i.No Response <br> &emsp;&emsp;&emsp;&emsp;ii.Just return 200_OK if the requestis successful <br> &emsp;&emsp;&emsp;&emsp;iii. Return 400_BAD_REQUEST ifany of the above fields are missing <br> &emsp;ii.User <br> &emsp;&emsp;1.API: Can register as a user <br> &emsp;&emsp;&emsp;a.Method: <br> &emsp;&emsp;&emsp;&emsp;i.POST <br> &emsp;&emsp;&emsp;b.Endpoint: <br> &emsp;&emsp;&emsp;&emsp;i./user/register/ <br> &emsp;&emsp;&emsp;c.Request: <br> &emsp;&emsp;&emsp;&emsp;i.Name <br> &emsp;&emsp;&emsp;&emsp;ii.Email <br> &emsp;&emsp;&emsp;&emsp;iii.Password <br> &emsp;&emsp;&emsp;d.Response: <br> &emsp;&emsp;&emsp;&emsp;i. Body: <br> &emsp;&emsp;&emsp;&emsp;&emsp;1. JWT Authentication Token <br> &emsp;&emsp;&emsp;&emsp;&emsp;2. User id  <br> &emsp;&emsp;&emsp;&emsp;ii. Status <br> &emsp;&emsp;&emsp;&emsp;&emsp;1. 200_OK if the request issuccessful <br> &emsp;&emsp;&emsp;&emsp;&emsp;2. 400_BAD_REQUEST ifany of the above fields aremissing</p>
+               <p>After creating this ADMIN and User registration process, the log-in for the User and the admin to get the list of advisors page wsa developed... <br> After that a page to book a call with an advisor interphase was developed</p>
+               
+
+		
+
+	</div>
+
+</body>
+</html>
